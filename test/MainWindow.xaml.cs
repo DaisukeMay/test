@@ -24,14 +24,8 @@ namespace test
         {
             InitializeComponent();
             GetWeb();
-            //测试一下Git是否正常工作
+            //更改一下试试
         }
-
-        public void JustATest()
-        {
-            string a = "测试Git的功能";
-        }
-
         public void GetWeb()
         {
             HttpWebRequest req = null;
